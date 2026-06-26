@@ -1,4 +1,4 @@
-export default function(output) {
+export default function (output) {
     output.innerHTML += `\
 .
 ├── Languages I use/
@@ -10,33 +10,35 @@ export default function(output) {
 │       └── Markdown
 ├── Frameworks I use/
 │   ├── FRONTEND/
-│   │   ├── ReactJS
+│   │   └── ReactJS
 │   ├── CSS/
 │   │   ├── PureCSS
-│   │   ├── TailwindCSS
+│   │   └── TailwindCSS
 │   └── BACKEND/
-│       ├── NodeJS (RUNTIME)
-│       └── ExpressJS (Server)
-├── Tools I use/
-│   ├── Editors/
-│   │   ├── VSCode
-│   └── Shell/
-│       ├── bash
-│       ├── poweshell
-│       └── cmd
+│       ├── NodeJS (Runtime)
+│       └── ExpressJS
+├── Python Libraries/
+│   ├── NumPy
+│   ├── Pandas
+│   ├── Matplotlib
+│   ├── Seaborn
+│   └── Scikit-learn (Machine Learning)
 ├── Databases I use/
 │   ├── SQL/
-│   │   └── MYSQL
+│   │   └── MySQL
 │   └── NoSQL/
-│       ├── Mongodb
+│       ├── MongoDB
 │       └── Firestore
 ├── OS I use/
 │   ├── Windows
-│   ├── Ubuntu
+│   └── Ubuntu
 ├── Design Tools I use/
 │   ├── Figma
-│   ├── Canva
-└── Other/
-    └── DevOps Tools
+│   └── Canva
+└── Machine Learning/
+    ├── Data Analysis
+    ├── Data Visualization
+    ├── Data Preprocessing
+    └── Model Building
 `;
 }
